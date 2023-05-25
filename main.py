@@ -9,7 +9,7 @@ logging.basicConfig(
     level=logging.DEBUG,
     format='%(asctime)s - %(name)s - %(levelname)s - %(message)s'
 )
-
+client.init()
 class App(QtWidgets.QMainWindow, test_ui.Ui_MainWindow):
     def __init__(self):
         super().__init__()
